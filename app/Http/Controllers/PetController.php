@@ -66,8 +66,6 @@ class PetController extends Controller
         } else {
             dd($response->status(), $response->body());
         }
-
-        return back()->with('status', 'Failed to add pet.');
     }
 
     // Metoda do wyświetlania szczegółów zwierzęcia
